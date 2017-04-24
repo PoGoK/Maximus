@@ -1,0 +1,12 @@
+G:\Work\Maximus\EzrealtyToRia\EzrealtyToRia\bin\Release\EzrealtyToRia.exe.config
+G:\Work\Maximus\EzrealtyToRia\EzrealtyToRia\bin\Release\EzrealtyToRia.exe
+G:\Work\Maximus\EzrealtyToRia\EzrealtyToRia\bin\Release\EzrealtyToRia.pdb
+G:\Work\Maximus\EzrealtyToRia\EzrealtyToRia\bin\Release\MySql.Data.dll
+G:\Work\Maximus\EzrealtyToRia\EzrealtyToRia\bin\Release\MySql.Data.Entity.dll
+G:\Work\Maximus\EzrealtyToRia\EzrealtyToRia\bin\Release\MySql.Web.dll
+G:\Work\Maximus\EzrealtyToRia\EzrealtyToRia\obj\x86\Release\EzrealtyToRia.Form1.resources
+G:\Work\Maximus\EzrealtyToRia\EzrealtyToRia\obj\x86\Release\EzrealtyToRia.Properties.Resources.resources
+G:\Work\Maximus\EzrealtyToRia\EzrealtyToRia\obj\x86\Release\EzrealtyToRia.csproj.GenerateResource.Cache
+G:\Work\Maximus\EzrealtyToRia\EzrealtyToRia\obj\x86\Release\EzrealtyToRia.exe
+G:\Work\Maximus\EzrealtyToRia\EzrealtyToRia\obj\x86\Release\EzrealtyToRia.pdb
+G:\Work\Maximus\EzrealtyToRia\EzrealtyToRia\obj\x86\Release\EzrealtyToRia.csprojResolveAssemblyReference.cache
