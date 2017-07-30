@@ -205,8 +205,8 @@ namespace EzrealtyToRia
                         if (realty_type == string.Empty)
                             continue;
                         var worker = Workers.Find(w => w.Id == int.Parse(row["owner"].ToString()));
-                        if(worker == null)
-                            MessageBox.Show("Объект с id ")
+                        if (worker == null)
+                            MessageBox.Show("Объект с кодом = " + row["office_id"]+" назначен на агента с ошибкой");
                         _xmlWriter.WriteStartElement(ObjectStartElement);
                         _xmlWriter.WriteElementString("local_realty_id", row["office_id"].ToString());
 
