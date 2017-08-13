@@ -289,7 +289,8 @@ namespace EzrealtyToRia
                     }
                     catch (Exception ex)
                     {
-                        return;
+                        MessageBox.Show("Объект с кодом " + row["office_id"].ToString() + "содержит ошибки и не будет выгружен.");
+                        continue;
                     }
                     _xmlWriter.Flush();
 
@@ -544,7 +545,8 @@ namespace EzrealtyToRia
                 }
                 catch (Exception ex)
                 {
-                    return;
+                    MessageBox.Show("Объект с кодом " + row["office_id"].ToString() + "содержит ошибки и не будет выгружен.");
+                    continue;
                 }
                 _xmlWriter.Flush();
 
@@ -717,7 +719,8 @@ namespace EzrealtyToRia
                 }
                 catch (Exception ex)
                 {
-                    return;
+                    MessageBox.Show("Объект с кодом " + row["office_id"].ToString() + "содержит ошибки и не будет выгружен.");
+                    continue;
                 }
                 _xmlWriter.Flush();
 
@@ -1035,7 +1038,8 @@ namespace EzrealtyToRia
                 }
                 catch (Exception ex)
                 {
-                    return;
+                    MessageBox.Show("Объект с кодом " + row["office_id"].ToString() + "содержит ошибки и не будет выгружен.");
+                    continue;
                 }
                 _xmlWriter.Flush();
 
@@ -1047,6 +1051,8 @@ namespace EzrealtyToRia
 
             string corruptObj = string.Join(",", corruptObjects.ToArray());
             MessageBox.Show("Рекомендуется очистить описание объектов от мусора. Перечень кодов объектов: " + corruptObj);
+
+
         }
 
         private void btLunSendFile_Click(object sender, EventArgs e)
