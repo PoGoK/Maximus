@@ -752,7 +752,7 @@ namespace EzrealtyToRia
             // Создаем объект FtpWebRequest
             reqFTP = (FtpWebRequest)FtpWebRequest.Create(new Uri(uri));
             // Учетная запись
-            reqFTP.Credentials = new NetworkCredential("maximuszt", "pNc8bMPLZF");
+            reqFTP.Credentials = new NetworkCredential("maximuszt_pocc", "NUeJYF5RH1");
             reqFTP.KeepAlive = false;
             // Задаем команду на закачку
             reqFTP.Method = WebRequestMethods.Ftp.UploadFile;
