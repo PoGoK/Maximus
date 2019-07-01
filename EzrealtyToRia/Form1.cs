@@ -150,7 +150,10 @@ namespace EzrealtyToRia
             using (XmlWriter _xmlWriter = XmlWriter.Create(cbRiaExportAll.Checked ? "maximusFull.xml" : "maximus.xml"))
             {
                 _xmlWriter.WriteStartDocument();
-                _xmlWriter.WriteStartElement(StartElement);
+                _xmlWriter.WriteStartElement(StartElement, "http://dom.ria.ua/xml/xsd/");
+                //_xmlWriter.WriteAttributeString("xmlns", null, "http://dom.ria.ua/xml/xsd/");
+                _xmlWriter.WriteAttributeString("xmlns", "xsi", null, "http://www.w3.org/2001/XMLSchema-instance");
+                _xmlWriter.WriteAttributeString("xsi", "schemaLocation", null, "http://dom.ria.ua/xml/xsd/ http://dom.ria.ua/xml/xsd/dom.xsd");
                 _xmlWriter.WriteElementString("generation_date", DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss+03:00"));
                 foreach (DataRow row in dataTable.Rows)
                 {
